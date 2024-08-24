@@ -62,7 +62,7 @@
 
 .intro_link1 {
     color: #8C8A8A;
-    padding-top: 50px;
+   margin-top: 40px;
     display: block;
 }
 
@@ -81,7 +81,7 @@
 .about_title {
     color: #4581B7;
     font-size: 23px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 23.44px;
     margin-bottom: 20px;
 }
@@ -128,7 +128,7 @@
     width: 1110px;
     height: 150px;
     justify-content: space-between;
-    padding-left: 50px;
+    padding-left: 0 40px;
 }
 
 .intro_link {
@@ -153,11 +153,14 @@
     font-size: 25px;
     font-weight: 700;
     line-height: 29.3px;
+  
 }
 
 .work_box {
     display: flex;
     justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
 }
 
 .work_card {
@@ -170,8 +173,6 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 29.3px;
-    text-align: left;
-    margin: 29px;
+    text-align: right;
 }
 
-.footer {}
